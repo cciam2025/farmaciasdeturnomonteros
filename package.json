@@ -1,0 +1,17 @@
+{
+  "name": "sistema-qr-de-farmacias-de-turno",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "serve": "php -S localhost:8000 -t public",
+    "watch": "tailwindcss -i ./input.css -o ./public/css/style.css --watch",
+    "dev": "concurrently \"npm:serve\" \"npm:watch\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
